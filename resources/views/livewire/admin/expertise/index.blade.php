@@ -33,7 +33,7 @@
                                 <td>{{ $expertise['detail'] }}</td>
                                 <td>
                                     <a href="{{ route('admin.expertise.detail', $expertise['id']) }}" class="btn btn-warning">Edit</a>
-                                    <a href="#" class="btn btn-danger">Hapus</a>
+                                    <a href="#" wire:click="delete({{ $expertise['id'] }})" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                         @endforeach

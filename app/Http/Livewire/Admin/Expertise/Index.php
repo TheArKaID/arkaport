@@ -18,4 +18,13 @@ class Index extends Component
     {
         return view('livewire.admin.expertise.index')->extends('layouts.app');
     }
+
+    public function delete($id)
+    {
+        $expert = Expertise::find($id);
+        $expert->delete();
+
+        session()->flash('success', 'Data Expertise Berhasil Dihapus!');
+        $this->mount();
+    }
 }
