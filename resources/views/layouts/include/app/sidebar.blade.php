@@ -38,6 +38,14 @@
                     <span class="title">Profile</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a class="sidebar-link {{ Request::is('expertise') ? 'actived' : ''}}" href="{{ route('admin.expertise.index') }}">
+                    <span class="icon-holder">
+                        <i class="c-red-500 ti-star"></i> 
+                    </span>
+                    <span class="title">Expertises</span>
+                </a>
+            </li>
 
             <li class="nav-item mT-30">
                 <a class="sidebar-link" href="index.html">

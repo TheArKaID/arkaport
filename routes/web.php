@@ -26,7 +26,11 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.dashboard');
 
     Route::get('profile', App\Http\Livewire\Admin\Profile::class)->name('admin.profile');
-    Route::get('expertise', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.expertise');
+    
+    // Expertise
+    Route::get('expertise', App\Http\Livewire\Admin\Expertise\Index::class)->name('admin.expertise.index');
+    Route::get('expertise/{id}', App\Http\Livewire\Admin\Expertise\Detail::class)->name('admin.expertise.detail');
+    
     Route::get('work-experience', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.work-experience');
     Route::get('education', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.education');
     Route::get('course', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('admin.course');
