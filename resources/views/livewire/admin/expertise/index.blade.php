@@ -4,8 +4,16 @@
             <div class="bgc-white bd bdrs-3 p-20">
                 <div class="row">
                     <h4 class="c-grey-900 mB-20 col-md-8">Your Skill</h4>
-                    <a href="#" class="btn btn-primary" style="height: 100%">Tambah</a>
+                    <a href="{{ route('admin.expertise.create')}}" class="btn btn-primary" style="height: 100%">Tambah</a>
                 </div>
+                @if ($errors->any())
+                    @foreach ($errors->all() as $error)
+                        <div class="alert alert-danger" role="alert">{{ $error }}</div>
+                    @endforeach
+                @endif
+                @if (session()->has('success'))
+                    <div class="alert alert-success" role="alert">{{ session('success') }}</div>
+                @endif
                 <table class="table table-hover table-responsive">
                     <thead>
                         <tr>
