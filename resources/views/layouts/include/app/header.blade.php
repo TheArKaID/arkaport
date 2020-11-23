@@ -18,7 +18,7 @@
                         <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <span>
@@ -30,7 +30,7 @@
                             </li>
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <span>
@@ -42,7 +42,7 @@
                             </li>
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <span>
@@ -69,7 +69,7 @@
                         <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm">
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <div>
@@ -86,7 +86,7 @@
                             </li>
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <div>
@@ -103,7 +103,7 @@
                             </li>
                             <li>
                                 <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
-                                    <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="" /></div>
+                                    {{-- <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt="" /></div> --}}
 
                                     <div class="peer peer-greed">
                                         <div>
@@ -129,7 +129,7 @@
             </li>
             <li class="dropdown">
                 <a href="" class="dropdown-toggle no-after peers fxw-nw ai-c lh-1" data-toggle="dropdown">
-                    <div class="peer mR-10"><img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/10.jpg" alt="" /></div>
+                    {{-- <div class="peer mR-10"><img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/10.jpg" alt="" /></div> --}}
 
                     <div class="peer"><span class="fsz-sm c-grey-900">John Doe</span></div>
                 </a>
