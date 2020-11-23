@@ -23,8 +23,19 @@
         </div>
         <ul class="sidebar-menu scrollable pos-r">
             <li class="nav-item mT-30">
-                <a class="sidebar-link actived" href="{{route('admin.dashboard')}}">
-                    <span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span>
+                <a class="sidebar-link {{ Request::is('dashboard') ? 'actived' : ''}}" href="{{ route('admin.dashboard') }}">
+                    <span class="icon-holder">
+                        <i class="c-red-500 ti-home"></i> 
+                    </span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="sidebar-link {{ Request::is('profile') ? 'actived' : ''}}" href="{{ route('admin.profile') }}">
+                    <span class="icon-holder">
+                        <i class="c-red-500 ti-user"></i> 
+                    </span>
+                    <span class="title">Profile</span>
                 </a>
             </li>
 
