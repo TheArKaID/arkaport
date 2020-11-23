@@ -4,13 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <title>{{ config('app.name', 'Laravel Adminator') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +15,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('adminator/css/style.css') }}" rel="stylesheet" />
     
     <style>
         #loader {
@@ -72,7 +70,8 @@
             }
         }
     </style>
-    <link href="{{ asset('adminator/css/style.css') }}" rel="stylesheet" />
+
+    @livewireStyles
 </head>
 
 <body class="app is-collapsed">
@@ -103,5 +102,6 @@
     </div>
     <script type="text/javascript" src="{{ asset('adminator/js/vendor.js') }}"></script>
     <script type="text/javascript" src="{{ asset('adminator/js/bundle.js') }}"></script>
-    </body>
+    @livewireScripts
+</body>
 </html>
