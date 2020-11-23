@@ -23,7 +23,13 @@
         </div>
         <ul class="sidebar-menu scrollable pos-r">
             <li class="nav-item mT-30">
-                <a class="sidebar-link actived" href="index.html">
+                <a class="sidebar-link actived" href="{{route('admin.dashboard')}}">
+                    <span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span>
+                </a>
+            </li>
+
+            <li class="nav-item mT-30">
+                <a class="sidebar-link" href="index.html">
                     <span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span>
                 </a>
             </li>
