@@ -9,6 +9,14 @@
         <div class="col-md-8">
             <div class="bgc-white p-20 bd">
                 <h6 class="c-grey-900">Data Diri</h6>
+                @if ($errors->any())
+                    @foreach ($errors->all() as $error)
+                        <div class="alert alert-danger" role="alert">{{ $error }}</div>
+                    @endforeach
+                @endif
+                @if (session()->has('success'))
+                    <div class="alert alert-success" role="alert">{{ session('success') }}</div>
+                @endif
                 <div class="mT-30">
                     <form wire:submit.prevent="save">
                         <div class="form-row">
